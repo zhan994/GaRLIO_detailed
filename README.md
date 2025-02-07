@@ -70,7 +70,14 @@ Existing online gravity estimation methods rely on pose estimation combined with
 
 
 ```
-
+@INPROCEEDINGS { cynoh-2025-icra,
+    AUTHOR = { Chiyun Noh and Wooseong Yang and Minwoo Jung and Sangwoo Jung and Ayoung Kim },
+    TITLE = { GaRLIO: Gravity enhanced Radar-LiDAR-Inertial Odometry },
+    BOOKTITLE = { Proceedings of the IEEE International Conference on Robotics and Automation (ICRA) },
+    YEAR = { 2025 },
+    MONTH = { May. },
+    ADDRESS = { Atlanta },
+}
 ```
 
 ## Contact
