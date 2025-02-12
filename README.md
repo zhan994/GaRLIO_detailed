@@ -5,7 +5,7 @@
   <p align="center">
     <a href="https://github.com/ChiyunNoh/GaRLIO"><img src="https://img.shields.io/badge/-C++-blue?logo=cplusplus" /></a>
     <a href="https://github.com/ChiyunNoh/GaRLIO"><img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" /></a>
-    <a href="https://github.com/ChiyunNoh/GaRLIO"><img src="https://img.shields.io/badge/Paper-pdf-<COLOR>.svg?style=flat-square" /></a>
+    <a href="https://arxiv.org/abs/2502.07703"><img src="https://img.shields.io/badge/Paper-pdf-<COLOR>.svg?style=flat-square" /></a>
     </a>
   </p>
   
@@ -23,14 +23,14 @@
     <a href="https://rpm.snu.ac.kr/"><strong>Robust Perception and Mobile Robotics Lab (RPM)</strong></a>
   </p>
 
-  <h3 align="center"><a href="">Paper</a> | <a href="https://youtu.be/zeH3RQdIviw?si=aZg_WZfn4ErqkNu8">Video</a></h3>
+  <h3 align="center"><a href="https://arxiv.org/abs/2502.07703">Paper</a> | <a href="https://youtu.be/zeH3RQdIviw?si=aZg_WZfn4ErqkNu8">Video</a></h3>
   <div align="center"></div>
 </p>
 
 
 This repository contains the code for **GaRLIO: Gravity enhanced Radar-LiDAR-Inertial Odometry**, which is accepted by ICRA 2025. 
 
-Full paper and code will be available in a few weeks. Stay tuned!
+Full code will be available in a few weeks. Stay tuned!
 
 <!-- TABLE OF CONTENTS -->
 <details open="open" style='padding: 10px; border-radius:5px 30px 30px 5px; border-style: solid; border-width: 1px;'>
