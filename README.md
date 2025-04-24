@@ -64,7 +64,7 @@ This repository contains the code for **GaRLIO: Gravity enhanced Radar-LiDAR-Ine
 ## Update
 [24/04/2025]: Full code of GaRLIO released.
 
-[28/01/2025]: GaRLIO is accepted to IROS 2024.
+[28/01/2025]: GaRLIO is accepted to ICRA 2025.
 
 ## Abstract
 
