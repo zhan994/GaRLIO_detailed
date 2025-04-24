@@ -1,0 +1,16 @@
+<launch>
+    
+    <rosparam command="load" file="$(find garlio)/config/loop2.yaml" />
+
+    <node pkg="garlio" type="cloudProcess" name="pointProcess" output="screen" />
+
+    <node pkg="garlio" type="lidarMapping" name="lidarMapping" output="screen" />
+
+    <!--<node pkg="garlio" type="lidarMapping" name="lidarMapping" output="screen" launch-prefix="xterm -e gdb -ex run args" />-->
+
+    <arg name="rviz" default="true" />
+    <group if="$(arg rviz)">
+        <node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz" args="-d $(find garlio)/rviz_cfg/aloam_velodyne.rviz" />
+    </group>
+
+</launch>
