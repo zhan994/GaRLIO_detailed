@@ -16,7 +16,9 @@
 #include <livox_ros_driver/CustomMsg.h>
 #include <geometry_msgs/TwistWithCovarianceStamped.h>
 #include <omp.h>
-#include <opencv/cv.h>
+#include <opencv2/opencv.hpp>
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
 #include <tf/transform_broadcaster.h>
 
 #include "common_lib.h"
