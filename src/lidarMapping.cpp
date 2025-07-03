@@ -1532,7 +1532,7 @@ int main(int argc, char **argv)
 			
 			last_rot = lio_state.rot_end;
 			if (is_first_scan) {
-				last_radar_vel = R_ri.transpose()*v_r+skew(pImu_->get_angvel())*p_i_ir;;
+        last_radar_vel = R_ri.transpose()*v_r-skew(pImu_->get_angvel())*p_i_ir;;
 				lio_state.vel_end = (T_r2i.block<3, 3>(0, 0).transpose() * v_r);
 				first_lidar_time = Measures.lidar_beg_time;
 				pImu_->first_lidar_time = first_lidar_time; 
@@ -1551,7 +1551,7 @@ int main(int argc, char **argv)
 				gravity_init = true;
 			}
 
-			current_radar_vel = R_ri.transpose()*v_r+skew(pImu_->get_angvel())*p_i_ir;
+			current_radar_vel = R_ri.transpose()*v_r-skew(pImu_->get_angvel())*p_i_ir;
 			current_angular_vel = pImu_->get_angvel()+lio_state.bias_g;
 			
 			clock_t start_ms = clock();
